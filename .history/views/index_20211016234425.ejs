@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <!-- CSS Section -->
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel='stylesheet' href='/Content/app.css' />
+
+</head>
+<body>
+
+  <!-- Main Navigation-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/home">COMP229</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="/home"><i class="fas fa-laptop-house"></i> Home </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/products"><i class="fas fa-project-diagram"></i> Products </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/services"><i class="fas fa-cogs"></i> Services </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact Us </a>
+        </li>
+
+        
+       
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the <strong><%= title %></strong> page.</h1>
+      </div>
+  </main>
+
+
+  <!-- Script Section -->
+  <script src="/jquerry/dist/jquerry.min.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/Scripts/app.js"></script>
+</body>
+</html>
+

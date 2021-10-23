@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <!-- CSS Section -->
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel='stylesheet' href='/Content/app.css' />
+
+</head>
+<body>
+
+  <!-- Main Navigation-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">COMP229</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <% if (title == "Home") { %>
+            <a class="nav-link active" aria-current="page" href="/home">
+          <% } else { %>
+            <a class="nav-link" aria-current="page" href="/home">
+          <% } %>
+          <i class="fas fa-laptop-house"></i> Home </a>
+        </li>
+
+         <li class="nav-item">
+          <% if (title == "About") { %>
+            <a class="nav-link active" aria-current="page" href="/about">
+          <% } else { %>
+            <a class="nav-link" aria-current="page" href="/about">
+          <% } %>
+          <i class="fas fa-info-circle"></i> About </a>
+        </li>
+
+        <li class="nav-item">
+          <% if (title == "Products") { %>
+            <a class="nav-link active" aria-current="page" href="/products">
+          <% } else { %>
+            <a class="nav-link" aria-current="page" href="/products">
+          <% } %>
+          <i class="fas fa-project-diagram"></i> Products </a>
+        </li>
+
+        <li class="nav-item">
+          <% if (title == "Services") { %>
+            <a class="nav-link active" aria-current="page" href="/services">
+          <% } else { %>
+            <a class="nav-link" aria-current="page" href="/services">
+          <% } %><i class="fas fa-cogs"></i> Services </a>
+        </li>
+
+        <% if (title == "Contact Us") { %>
+          <li class="nav-item active">
+            <% } else { %>
+            <li class="nav item">
+              <% } %>
+          <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact Us </a>
+        </li>
+
+    </div>
+  </nav>
+<!-- Main Content-->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the <strong><%= title %></strong> page.</h1>
+      </div>
+  </main>
+
+
+  <!-- Script Section -->
+  <script src="/jquerry/dist/jquerry.min.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/Scripts/app.js"></script>
+</body>
+</html>
+

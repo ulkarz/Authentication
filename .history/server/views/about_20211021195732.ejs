@@ -1,0 +1,40 @@
+<!--  File Name: about.ejs
+      Name: Ulkar Zakaryayeva
+      Student Number: 301107604
+      Date: October 4, 2021
+-->
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+<!-- About Page Content -->
+
+<main class="container">
+  <div id="title">  
+    <h1 class="display-4">Welcome to the <strong><%= title %></strong> page!</h1>
+  </div>
+  
+  <div class="container">
+    <br>
+    <div id="photo">
+    <img src="/Assets/images/profilePhoto.png" alt="Ulkar Zakaryayeva" width="600" height="400">
+  </div>
+  
+  <div class="container" id="profileText">
+    <p></p>
+    <h2 class="display-6">Author Profile:</h2>
+      <div id="text">
+        <ul>
+          <li>Name: Ulkar Zakaryayeva</li>
+          <li>Location: Markham, ON</li>
+          <li>Course: Comp229 Fall 2021</li>
+          <p>My name is 
+          </p>
+      </div>
+  </div>
+</main>
+  
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>

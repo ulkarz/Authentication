@@ -1,0 +1,48 @@
+<!-- File Name: projects.ejs
+      Name: Ulkar Zakaryayeva
+      Student Number: 301107604
+      Date: October 4, 2021
+-->
+
+<%- include partials/header.ejs %>
+
+
+<%- include partials/main_nav.ejs %>
+  
+<!-- Projects Page Content -->
+
+<main class="container">
+  <div class="jumbotron">
+    <div id="title">  
+      <h1 class="display-4">Welcome to the <strong><%= title %></strong> page!</h1>
+    </div>
+    <div class="container">
+      <br>   
+      <div class="gallery">
+        <a target="_blank" href="http://studentweb.cencol.ca/uzakarya/Assignment3.html">
+          <img src="../public/Assets/images/favorite_product.png" alt="COMP213 Assignment 2" width="600" height="400">
+        </a>
+        <div class="desc">COMP213 Assignment 2</div>
+      </div>
+      <br>
+        <div class="gallery">
+          <a target="_blank" href="http://studentweb.cencol.ca/uzakarya/Assignment%204.html">
+            <img src="public\Assets\images\feedbackForm.png" alt="College Feedback Form" width="600" height="400">
+          </a>
+          <div class="desc">College Feedback Form</div>
+        </div>
+        <br>
+          <div class="gallery">
+            <a target="_blank" href="http://studentweb.cencol.ca/uzakarya/Term%20Project.html">
+              <img src="/public/Assets/images/termProject.png" alt="Term Project" width="600" height="400">
+            </a>
+          <div class="desc">Term Project</div>
+          </div>
+    </div>       
+  </div>   
+</main>
+  
+<%- include partials/bottom_nav.ejs %>
+
+
+<%- include partials/footer.ejs %>
