@@ -1,0 +1,122 @@
+/*  File Name: app.css
+    Name: Ulkar Zakaryayeva
+    Student Number: 301107604
+    Date: October 4, 2021
+*/
+
+body {
+    padding-bottom: 95px;
+}
+
+#photo {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    color: rgb(7, 7, 82);
+}
+
+#profileText {
+    background-color: lightgrey;
+    color: rgb(7, 7, 82);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#bodyText {
+    background-color: lightgrey;
+    color: rgb(7, 7, 82);
+    border-radius: 5px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#missionText {
+    background-color: lightgrey;
+    color: rgb(7, 7, 82);
+    border-radius: 5px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+div.jumbotron {
+    text-align: center;
+}
+
+div.gallery {
+    margin: auto;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 680px;
+    border-radius: 5px;
+}
+
+div.gallery:hover {
+    text-align: center;
+    border: 5px solid #777;
+    border-radius: 5px;
+}
+
+div.gallery img {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+div.desc {
+    text-align: center;
+    padding: 15px;
+}
+
+#txtBox {
+    margin-left: 5px;
+}
+
+#txtBox1 {
+    margin-left: 10px;
+}
+
+#txtBox2 {
+    margin-left: 5px;
+}
+
+#inputBtn,
+#resetBtn {
+    margin-left: 20px;
+    background-color: lightblue;
+    color: blue;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#inputBtn:hover,
+#resetBtn:hover {
+    background-color: rgb(7, 7, 82);
+    color: lightblue;
+}
+
+#button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: rgb(7, 7, 82);
+}
+
+#contactText {
+    text-align: center;
+}
+
+#contactBox {
+    background-color: lightgrey;
+    color: blue;
+    border-radius: 5px;
+}
+
+h2 {
+    font-weight: bold;
+}

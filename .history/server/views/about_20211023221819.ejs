@@ -1,0 +1,37 @@
+<!--  File Name: about.ejs
+      Name: Ulkar Zakaryayeva
+      Student Number: 301107604
+      Date: October 4, 2021
+-->
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+<!-- About Page Content -->
+
+<main class="container">
+  <div id="title">  
+    <h1 class="display-4">Welcome to the <strong><%= title %></strong> page!</h1>
+  </div>
+  
+  <div class="container">
+    <br>
+    <div id="photo">
+    <img src="/Assets/images/profilephoto.png" alt="Ulkar Zakaryayeva" width="200" height="300">
+  </div>
+  
+  <div class="container" id="profileText">
+    <p></p>
+    <h2>About Me:</h2>
+      <div id="text">
+          <p>My name is Ulkar Zakaryayeva. I am from Azerbaijan and have been in Canada for two years.</p>
+      <p>I am in the third semester of Software Engineering Technician program at Centennial college.</p>
+      <p>I like to spend my time with my family when I am not in front of the computer.</p>
+      </div>
+  </div>
+</main>
+  
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>

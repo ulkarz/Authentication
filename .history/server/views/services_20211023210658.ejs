@@ -1,0 +1,51 @@
+<!--  File Name: services.ejs
+      Name: Ulkar Zakaryayeva
+      Student Number: 301107604
+      Date: October 4, 2021
+-->
+
+<%- include partials/header.ejs %>
+
+
+<%- include partials/main_nav.ejs %>
+  
+<!-- Services Page Content -->
+
+<main class="container">
+  <div class="jumbotron">
+    <div id="title">  
+      <h1 class="display-4">Welcome to the <strong><%= title %></strong> page!</h1>
+    </div>
+      
+    <div class="container" id="bodyText">
+      <p>
+        I am offering the following services:
+      </p>
+    </div>
+    <div class="gallery">
+      <a target="_blank">
+        <img src="public\Assets\images\programming.jpeg" alt="Programming" width="600" height="400">
+      </a>
+      <div class="desc">Programming</div>
+    </div>
+    <br>
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="public\Assets\images\webdesign.jpeg" alt="Web Design" width="600" height="400">
+      </a>
+      <div class="desc">Web Design</div>
+    </div>
+    <br>
+    <div class="gallery">
+      <a target="_blank" >
+        <img src="public\Assets\images\carpenterPhoto.jpg" alt="" width="600" height="400">
+      </a>
+      <div class="desc"></div>
+    </div>
+  </div> 
+</main>
+  
+<%- include partials/bottom_nav.ejs %>
+
+
+<%- include partials/footer.ejs %>
