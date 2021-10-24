@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('./server/config/app');
+let app = require('./server/config/app');
 let debug = require('debug')('assignment2-authentication:server');
 let http = require('http');
 
