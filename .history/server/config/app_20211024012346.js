@@ -70,7 +70,7 @@ app.use(passport.session());
 
 //create a User Model Instance
 var userModel = require('../models/user');
-/*  File Name: app.js
+/*  File Name: app.css
     Name: Ulkar Zakaryayeva
     Student Number: 301107604
     Date: October 23, 2021

@@ -61,7 +61,7 @@ div.gallery:hover {
 
 div.gallery img {
     text-align: center;
-    width: 100%;
+    width: auto;
     height: auto;
     border-radius: 5px;
 }
