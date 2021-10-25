@@ -1,0 +1,20 @@
+ <!-- File Name: error.ejs
+     Name: Ulkar Zakaryayeva
+     Student Number: 301107604
+     Date: October 23, 2021                 
+     -->
+
+
+<% include partials/header.ejs %>
+
+<% include partials/main_nav.ejs %>
+
+<div class="container">
+<h1><%= messages %></h1>
+<h2><%= error.status %></h2>
+<pre><%= error.stack %></pre>
+</div>
+
+<% include partials/bottom_nav.ejs %>
+
+<% include partials/footer.ejs %>
